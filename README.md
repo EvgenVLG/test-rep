@@ -12,6 +12,7 @@ I come from hands-on diagnostics and field technical work on complex physical sy
 | AI enablement / agentic workflows | [Production Zoo](https://github.com/EvgenVLG/production-zoo) | bounded AI workers, Git worktrees, review gates, model/tool routing, recovery, evidence-driven acceptance |
 | API / authorization / trustworthy AI integration | [The Nest](https://github.com/EvgenVLG/the-nest-runtime) | deterministic identity/policy/capability boundary, typed outcomes, HTTP/SQLite reference path |
 | Embedded / voice / edge integration | [Marinka](https://github.com/EvgenVLG/Marinka-assistant) | ESP32-S3 endpoint R&D, server/device partitioning, telemetry, OTA/recovery work |
+| Wearable / cross-device UI prototypes | [Workshop Pocket & HUD](Workshop/README.md) | Browser-to-phone information handoff, glanceable cards, display-agnostic interfaces and simulator-first validation |
 | Linux / self-hosted operations | [HomeLab Core](https://github.com/EvgenVLG/homelab-core) | service composition, DNS/reverse proxy, remote access, monitoring, automation, runtime/secret boundaries |
 
 ## Public projects
@@ -26,6 +27,9 @@ A deterministic authority layer for physical/connected environments. AI can inte
 
 ### Marinka
 A portable assistant runtime plus active private R&D around an ESP32-S3 audio endpoint, server-side speech processing, telemetry, wake-word evaluation, and safe OTA recovery.
+
+### Workshop Pocket & Heads-Up Display
+An experimental cross-device project for browser capture, iPhone-friendly technical checklists and wearable HUD prototypes. [Public-safe project overview](Workshop/README.md) and [version milestones](Workshop/versions/README.md); actual smart-glasses hardware validation remains pending.
 
 ### HomeLab Core
 The Linux/container environment used to operate and test surrounding services. The public repository is sanitized; current architecture and operational work are documented without publishing credentials or private topology.
@@ -43,6 +47,8 @@ Across these projects I use the same discipline:
 7. separate what the public artifact proves from what remains private R&D.
 
 ## Current focus - October 2026
+
+- Workshop Pocket / HUD: cross-device structured cards, simulator-first wearable interfaces and browser-to-iPhone experiments;
 
 - hardware/software integration and observability for a streamed ESP32-S3 audio endpoint;
 - signed A/B OTA and recovery behavior;
