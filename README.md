@@ -1,5 +1,7 @@
 # Engineering Portfolio Index
 
+> **November 4, 2026:** [Engineering portfolio update — self-hosted AI Farm, validated multi-model workflows and Linux operations](docs/NOVEMBER_2026_ENGINEERING_UPDATE.md). Start here for the newest architecture and evidence, then follow the project links.
+
 This repository is the landing page for my public engineering work. The repository name is legacy; the content below is the intended entry point.
 
 I come from hands-on diagnostics and field technical work on complex physical systems. My current independent engineering work extends the same method - reproduce the failure, isolate the boundary, gather evidence, verify the fix - into Linux systems, embedded devices, APIs, and AI-assisted engineering workflows.
